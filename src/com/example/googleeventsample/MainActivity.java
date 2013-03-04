@@ -10,8 +10,7 @@ public class MainActivity extends Activity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        MovieDownloader m = new MovieDownloader();
-        m.downloadMovies();
+
         
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
