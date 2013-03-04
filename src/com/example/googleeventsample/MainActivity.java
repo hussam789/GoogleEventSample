@@ -11,6 +11,8 @@ public class MainActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
 
+    	Controller test = new Controller();
+    	test.downloadMovies();
         
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
