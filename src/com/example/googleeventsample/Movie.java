@@ -1,3 +1,4 @@
+package com.example.googleeventsample;
 
 public class Movie {
   private String backdrop_path;
