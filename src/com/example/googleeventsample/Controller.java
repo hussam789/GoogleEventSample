@@ -1,3 +1,7 @@
+package com.example.googleeventsample;
+
+import java.util.ArrayList;
+
 
 public class Controller {
   private ArrayList<Movie> mlist = new ArrayList<Movie>() ;
